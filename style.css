@@ -1,0 +1,51 @@
+h1 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.legend {
+	font-size: 12px;
+	fill:white;
+}
+
+rect {
+	cursor: pointer; 
+	stroke-width: 2;
+}
+
+rect.disabled {                              
+	fill: transparent !important;              
+}  
+
+#chart {
+	margin: 0;                            
+	position: relative;
+
+}
+
+body {
+	display: flex;
+	font-family: PT Sans;
+	background-color: #273446;
+	color: white;
+}
+
+.dropdown {
+	position: absolute;
+	top:40px;
+}
+
+.tooltip {
+	background: #eee;
+	box-shadow: 0 0 5px #999999;
+	color: #333;
+	display: none;
+	font-size: 12px;
+	left: 130px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 80px;
+	z-index: 10;
+}
